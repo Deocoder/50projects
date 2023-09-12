@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Your Memes With this!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="meme-generator">
+      <h1 class="title">Go generate ur memes for free</h1>
+      <div>
+        <label for="">Select an image</label>
+        <input class="file" type="file" id="imageFileInput" />
+
+        <label for="">Top Text</label>
+        <input type="text" id="topText" />
+
+        <label for="">Bottom Text</label>
+        <input type="text" id="bottomText" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <canvas id="meme"> </canvas>
+      </div>
+      <div>
+        <button id="downloadButton">Download Meme</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  monospace;
+}
+
+
+body{
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #8e44ad;
+}
+
+
+.counter-con{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter{
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:580px) {
+  body{
+    flex-direction: column;
+  }
+}
+
+

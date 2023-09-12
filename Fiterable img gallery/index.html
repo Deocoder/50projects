@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filterable Img Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Filter Btns -->
+      <div class="filter_btns">
+        <button class="active" data-name="all">Show all</button>
+        <button data-name="sports">Sports</button>
+        <button data-name="clothes">Clothes</button>
+        <button data-name="food">Food</button>
+        <div id="google_translate_element"></div>
+
+      </div>
+
+      <div class="filterable_cards">
+        <div class="card" data-name="sports">
+          <img src="img/img (13).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Sports</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="sports">
+          <img src="img/img (12).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Sports</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="sports">
+          <img src="img/img (3).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Sports</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="sports">
+          <img src="img/img (2).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Sports</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="clothes">
+          <img src="img/img (20).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Clothes</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="clothes">
+          <img src="img/img (21).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Clothes</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="clothes">
+          <img src="img/img (22).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Clothes</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="clothes">
+          <img src="img/img (15).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Clothes</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="food">
+          <img src="img/img (6).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Food</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="food">
+          <img src="img/img (18).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Food</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+
+        <div class="card" data-name="food">
+          <img src="img/img (19).jpg" alt="" />
+          <div class="card-body">
+            <h6 class="card-title">Food</h6>
+            <p class="card-text">Lorem, ipsum dolor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  ></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en', // Set the default language of your website
+      includedLanguages: 'es,fr,de', // Set the languages you want to offer for translation
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // You can customize the layout
+      autoDisplay: false, // Set to true to automatically display the translation widget
+    }, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript">
+  googleTranslateElementInit(); // Initialize the translation widget
+</script>
+
+  <script src="script.js"></script>
+</html>

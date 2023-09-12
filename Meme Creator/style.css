@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  padding: 70px;
+  min-height: 100vh;
+  background-color: #5372f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+/* 
+.meme-generator {
+
+} */
+
+.meme-generator label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.meme-generator input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  outline: #5372f0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#meme {
+  width: 100%;
+}
+
+.meme-generator .file {
+  border: 1px solid #fff;
+  background-color: #5372f0;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#downloadButton {
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #000;
+  margin: 20px auto;
+  cursor: pointer;
+}
